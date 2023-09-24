@@ -1,0 +1,228 @@
+.ITEM {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  padding: 0px 5px;
+  position: relative;
+  width: 36px;
+}
+
+.ITEM .text-wrapper {
+  color: #ffffff;
+  font-family: "Raleway", Helvetica;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: -8.5px;
+  margin-right: -8.5px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ITEM .default {
+  font-weight: 400;
+}
+
+.ITEM .variant-2 {
+  font-weight: 700;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.MENU {
+  height: 70px;
+  width: 100%;
+}
+
+.MENU .overlap-group {
+  background-color: #4a795e;
+  height: 50px;
+  position: relative;
+  top: 10px;
+}
+
+.MENU .leaf {
+  height: 30px;
+  left: 20px;
+  position: absolute;
+  top: 10px;
+  width: 30px;
+}
+
+.MENU .overlap {
+  background-color: #d9d9d9;
+  border-radius: 15px;
+  height: 30px;
+  right: 30px;
+  position: absolute;
+  top: 10px;
+  width: 30px;
+}
+
+.MENU .user {
+  height: 22px;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  width: 22px;
+}
+
+.MENU .ITEM-instance {
+  height: 21px !important;
+  right: 70px;
+  position: absolute !important;
+  top: 15px !important;
+}
+
+.MENU .design-component-instance-node {
+  margin-left: -4.5px !important;
+  margin-right: -4.5px !important;
+}
+
+.MENU .div {
+  color: #ffffff;
+  font-family: "Raleway", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  height: 21px;
+  right: 150px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 14px;
+  white-space: nowrap;
+}
+
+.MENU .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Raleway", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  height: 21px;
+  right: 290px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 14px;
+  white-space: nowrap;
+}
+
+.MainPage {
+  width: 100%;
+  height: 100%;
+}
+
+.MainPage .body {
+  background-color: #ffffff;
+}
+
+.MainPage .body .container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2%;
+}
+
+.ChatBoxContainer {
+  height: 504px;
+  width: 584px;
+}
+
+.ChatBoxContainer .rectangle {
+  background: linear-gradient(
+    180deg,
+    rgba(222, 223, 218, 0.74) 0%,
+    rgba(222, 223, 218, 0) 100%
+  );
+  border-radius: 10px;
+  height: 650px;
+  width: 730px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.DataContainer {
+  height: 194px;
+  width: 700px;
+}
+
+.DataContainer .rectangle {
+  background: none;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-radius: 5px 5px 0px 0px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  height: 650px;
+  width: 640px;
+}
+.ChatBoxContainer .intro-container {
+  display: flex;
+  justify-content: center;
+  color: #081413;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.ChatBoxContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.rectangle {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-message {
+  font-size: 16px;
+  color: #333;
+}
+
+.ChatBoxContainer .rectangle .frequently-asked {
+  color: #0714128c;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.recommendation-prompts {
+  margin-top: 20px;
+}
+
+.recommendation-prompts ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.recommendation-prompts li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.input-container {
+  margin-top: 20px;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
